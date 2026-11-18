@@ -1,8 +1,9 @@
-# jakub.astermaris.pl
+# jakubsiuda.astermaris.pl
 
-Source of my portfolio site: one static page, hand-written HTML and CSS, no build step and no JavaScript.
+Source of my portfolio site: one static page in Polish and English, hand-written HTML and CSS, no build step and no JavaScript.
 
-- `index.html` – the page
+- `index.html` – the page in Polish (default)
+- `en/index.html` – the same page in English
 - `styles.css` – all styling
 - `img/` – portrait and project images (WebP)
 - `cv/` – CV in English and Polish

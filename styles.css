@@ -237,3 +237,10 @@ footer p { margin: 0; border-top: 1px solid var(--rule); padding-top: 22px; }
   .top nav, .actions, .skip { display: none; }
   section { padding-top: 32px; }
 }
+
+/* language switch: PL | EN, the current one filled */
+.lang { display: inline-flex; border: 1.5px solid var(--ink); border-radius: 999px; overflow: hidden; font-weight: 700; font-size: 0.9rem; }
+.lang > * { padding: 6px 11px; line-height: 1.2; }
+.lang [aria-current] { background: var(--ink); color: var(--sheet); }
+.top nav .lang a { color: var(--ink); text-decoration: none; }
+.top nav .lang a:hover { background: var(--sheet); }
